@@ -1,0 +1,8 @@
+Vishal got a task to verify that the given string contain “ra’ as substring or not.
+
+n=input()
+
+if 'ra' in n:
+    print("Yes")
+else:
+    print("No")
