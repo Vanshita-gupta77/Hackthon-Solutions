@@ -1,0 +1,8 @@
+Sucheta got a number ‘n’ as input. She got an another number ‘p’ as input. Now she got the task to identify that the pth from left is 1 or 0.
+
+n=int(input())
+p=int(input())
+if n[p]==1:
+    print("Yes")
+else:
+    print("No")
