@@ -1,0 +1,8 @@
+You need to capitalise the kth character of the input string.
+
+n=int(input())
+k=input()
+ls=list(k)
+x=ls[n-1].upper()
+ls[n-1]=x
+print("".join(ls))
