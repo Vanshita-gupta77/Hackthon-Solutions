@@ -1,0 +1,7 @@
+Kanishak got a task to find the two consecutive capital letters inside the string. If they exist return true else return false.
+
+s=input()
+for i in range(len(s)):
+    if(s[i]==s[i].upper() and s[i+1]==s[i+1].upper()):
+        print("Yes")
+        break
