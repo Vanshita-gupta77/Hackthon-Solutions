@@ -1,0 +1,10 @@
+Kartik got some numbers as input & a task to verify that the provided numbers can help him to get the dream sum is not.
+
+n=int(input())
+ls=list(map(int, input().strip().split()))[:n]
+y=sum(ls)
+if(n%2==0):
+    if(y==(-1)):
+       print("Yes")
+else:
+       print("No")
