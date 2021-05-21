@@ -1,0 +1,12 @@
+Priyanka got an array as input and assigned a task to verify that the reversal of array gives the same array or not. If array and its reverse version both are same then print “ Verified” else print “ Not Verified”.
+
+n=int(input())
+inputst=input()
+ls=inputst.split()
+def Reverse(lst):
+    return [ele for ele in reversed(lst)]
+rv=Reverse(ls)
+if rv == ls:
+    print("Verified")
+else:
+    print("Not Verified")
