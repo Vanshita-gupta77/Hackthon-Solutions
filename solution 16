@@ -1,0 +1,6 @@
+Sneha got a task to play with words. He decided to merge the first and last letter of the word together and add a new word with just letters in her dictionary.You have task to print those farthest letters after concatenation.
+
+Ex: Input – Condition Output – Cn
+
+word=input()
+print(word[0]+word[-1])
