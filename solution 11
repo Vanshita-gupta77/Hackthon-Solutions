@@ -1,0 +1,7 @@
+Karan got a task to find the index of a particular element ‘k’. Help him out. In case of repeatetion print the index of first occurence of number.
+
+n=int(input())
+num=int(input())
+ls=list(map(int, input().split()))
+x=ls.index(num)
+print(x)
