@@ -1,0 +1,6 @@
+Rishabh got a task to order the numbers in such a way that all got arrange in non-decreasing order. Write the necessart code to help him
+
+n=int(input())
+ls=list(sorted(map(int, input().split())))
+for i in ls:
+    print(i,end=' ')
