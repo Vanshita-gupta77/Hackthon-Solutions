@@ -1,0 +1,9 @@
+Sudhakar is spending money from his collection each day he spend 20 rupees on fast food. After n no of days how much total money has he in his collection?Initially he has 37000 rs
+
+n=int(input())
+y=37000
+for i in range(n):
+    x=y-20
+    y=x
+    print(x,end=" ")
+print("\n{}".format(x))   
