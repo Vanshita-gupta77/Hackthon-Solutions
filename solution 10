@@ -1,0 +1,8 @@
+Karan got a task to left rotate a string by one place. You need to help him by designing an algorithm that gives the second letter of rotated string
+
+s=input()
+ls=[]
+for i in s:
+    ls.append(i)
+ls.remove(ls[0])
+print(ls[1])
