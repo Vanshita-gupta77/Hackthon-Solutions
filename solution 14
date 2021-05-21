@@ -1,0 +1,12 @@
+Ramesh got marks M1 & M2 in Hindi & Sanskrit respectively. His friend Suresh got marks M3 in subject Urdu. Find the maximum marks that Suresh can get in Urdu such that, the marks of Suresh completely divides the marks M1 & M2 both with ramainder 0.
+
+m1=int(input())
+m2=int(input())
+if(m1>m2):
+    for i in range(1,m1+1):
+        if(m1%i==0 and m2%i==0):
+            print(i)
+else:
+    for i in range(1,m2+1):
+        if(m1%i==0 and m2%i==0):
+            print(i)
